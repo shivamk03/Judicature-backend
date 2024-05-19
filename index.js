@@ -17,5 +17,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(`MyNotesApp working on http://localhost:${process.env.PORT}`);
+  console.log(`Service live`);
 });
